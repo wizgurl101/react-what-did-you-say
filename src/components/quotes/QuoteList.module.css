@@ -6,14 +6,14 @@
 
 .sorting {
   padding-bottom: 1rem;
-  border-bottom: 3px solid #b2d4d4;
+  border-bottom: 2.5px solid #222831;
   margin-bottom: 2rem;
 }
 
 .sorting button {
   font: inherit;
-  color: teal;
-  border: 1px solid teal;
+  color: #30475e;
+  border: 2.5px solid #30475e;
   background-color: transparent;
   border-radius: 4px;
   padding: 0.5rem 1.5rem;
@@ -21,5 +21,7 @@
 }
 
 .sorting button:hover {
-  background-color: #c2fafa;
+  background-color: #5782ad;
+  border: 2.5px solid #5782ad;
+  color: white;
 }

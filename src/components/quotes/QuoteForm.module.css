@@ -36,8 +36,8 @@
 
 .control input:focus,
 .control textarea:focus {
-  background-color: #cbf8f8;
-  outline-color: teal;
+  background-color: #cedff0;
+  outline-color: #6c8196;
 }
 
 .actions {
