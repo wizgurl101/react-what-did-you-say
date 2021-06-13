@@ -1,25 +1,24 @@
-import logo from './logo.svg';
-import './App.css';
+import { Route, Switch, Redirect } from "react-router-dom";
+import NewQuoteScreen from "./screens/NewQuoteScreen";
+import QuoteDetailScreen from "./screens/QuoteDetailScreen";
+import QuoteListScreen from "./screens/QuoteListScreen";
+import Layout from "./components/layout/Layout";
+import Error404Screen from "./screens/Error404Screen";
 
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <Layout>
+      <Switch>
+        <Route path="/" exact>
+          <Redirect to="/quotes" />
+        </Route>
+        <Route path="/quotes" exact component={QuoteListScreen} />
+        <Route path="/quotes/:quoteId" component={QuoteDetailScreen} />
+        <Route path="/new-quote" component={NewQuoteScreen} />
+        <Route path="*" component={Error404Screen} />
+      </Switch>
+    </Layout>
   );
-}
+};
 
 export default App;
