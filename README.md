@@ -1,7 +1,7 @@
 # What did you say Application
 
 <p align="center">
-<img src="screenShot1.jpg" width="80%">
+<img src="screenshot1.jpg" width="80%">
 </p>
 
 ## Description
