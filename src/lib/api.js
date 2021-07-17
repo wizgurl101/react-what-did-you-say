@@ -1,5 +1,4 @@
-const FIREBASE_DOMAIN =
-  "";
+const FIREBASE_DOMAIN = "https://something.firebaseio.com/";
 
 export const getAllQuotes = async () => {
   const response = await fetch(`${FIREBASE_DOMAIN}/quotes.json`);
