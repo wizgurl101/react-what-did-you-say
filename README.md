@@ -13,7 +13,7 @@ This web application let user add a quote and persist it to a database.  In addi
 This project was coded while following along Academind's React the Complete Guide course.
 
 ## What have I learnt from this project
-- Build a Single Page Application with React 
+- Build a Single Page Application
 - Use React Router Dom for routing URL to specific pages within the application
 - how it use React Hooks such as useEffect, useCallback and useHttp
 - how to communicate to Firebase realtime database from a React app
