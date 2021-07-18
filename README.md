@@ -15,6 +15,6 @@ This project was coded while following along Academind's React the Complete Guid
 ## What have I learnt from this project
 - Build a Single Page Application
 - Use React Router Dom for routing URL to specific pages within the application
-- how it use React Hooks such as useEffect, useCallback and useHttp
-- how to communicate to Firebase realtime database from a React app
+- How it use React Hooks such as useEffect, useCallback and useHttp
+- How to communicate to Firebase realtime database from a React app
 - Use CSS module to style components
